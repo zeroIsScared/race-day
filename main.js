@@ -8,7 +8,8 @@ let runnersAge = 17;
 //Checking if runners are adults
 runnersAge > 18 && earlyRegistred  ? raceNumber += 1000 : raceNumber;
 console.log(raceNumber);
-//Checking and displying age and registration time
+/*Checking and displaying age and registration time, in correspondence
+ with runners age and registration time*/
 if (runnersAge > 18 && earlyRegistred) { 
 console.log(`The race will start at 9:30 am. Your race is:
  number ${raceNumber}`);
